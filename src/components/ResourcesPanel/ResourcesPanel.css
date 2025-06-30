@@ -1,0 +1,46 @@
+/* src/components/game/ResourcesPanel/ResourcesPanel.css */
+.resources-panel {
+  width: 20%;
+  padding: 1.5rem;
+  background-color: #34495e;
+  border-left: 1px solid #3a5169;
+}
+
+.resources-panel h3 {
+  margin: 0 0 1.5rem 0;
+  color: #ecf0f1;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.resources-panel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.resources-panel li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.resource-icon {
+  width: 24px;
+  height: 24px;
+  background-color: #3498db;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.resource-value {
+  color: #f1c40f;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
